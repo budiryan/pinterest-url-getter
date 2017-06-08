@@ -3,5 +3,5 @@ See example.py for usage instruction
 
 # Dependencies
 - Python 3
-- Selenium Webdriver
+- Selenium
 - Chrome Webdriver
