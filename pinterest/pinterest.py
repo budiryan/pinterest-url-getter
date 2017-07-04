@@ -1,11 +1,14 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from pyvirtualdisplay import Display
 import time
 
 
 class Pinterest(object):
     def __init__(self, username, password):
         super(Pinterest, self).__init__()
+        display = Display(visible=0, size=(800, 600))
+        display.start()
         self.base_url = "https://www.pinterest.com"
         self.username = username
         self.password = password
