@@ -1,6 +1,6 @@
 # Dependencies
 - Python 3
-- Selenium Webdriver
+- Selenium
 - Chrome Webdriver
 
 # Install Dependencies (sorry its long)
